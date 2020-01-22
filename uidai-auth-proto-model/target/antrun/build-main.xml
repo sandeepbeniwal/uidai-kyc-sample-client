@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <exec executable="protoc">
+    <arg value="--java_out=src/main/java"/>
+    <arg value="--proto_path=src/main/proto/auth/"/>
+    <arg value="src/main/proto/auth/auth.proto"/>
+  </exec>
+  <exec executable="protoc">
+    <arg value="--java_out=src/main/java"/>
+    <arg value="--proto_path=src/main/proto/bfd/"/>
+    <arg value="src/main/proto/bfd/bfd.proto"/>
+  </exec>
+</target>
+</project>

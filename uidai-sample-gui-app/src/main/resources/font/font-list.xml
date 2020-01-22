@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<font-list>
+	<font file="URWGothicL-Demi.ttf" size="18" usage="screen" />
+	<font file="ZURCHBC.TTF" size="18" usage="screen" />
+	<font file="lohit_bn_uid.ttf" size="14" locale="as_in" style="condensed" usage="screen"/>
+	<font file="lohit_bn_uid.ttf" size="14" locale="as_in" style="condensed" usage="print"/>
+	<font file="lohit_bn_uid.ttf" size="14" locale="bn_in" style="condensed" usage="screen"/>
+	<font file="lohit_bn_uid.ttf" size="14" locale="bn_in" style="condensed" usage="print"/>
+	<font file="arial.ttf" size="11" locale="en_in" style="condensed" usage="screen"/>
+	<font file="bookos.ttf" size="11" locale="en_in" style="condensed" usage="print"/>
+	<font file="lohit_gu_uid.ttf" size="13" locale="gu_in" style = "bold" usage="screen"/>
+	<font file="shruti.ttf" size="12" locale="gu_in" usage="print"/>
+	<font file="gargi.ttf" size="12" locale="hi_in" usage="screen" />
+	<font file="gargi.ttf" size="12" locale="hi_in" usage="print" />
+	<font file="KedageNormal_UID.ttf" size="14" locale="kn_in" usage="screen"/>
+	<font file="lohit_kn_uid.ttf" size="11" locale="kn_in" usage="print"/>
+	<font file="gargi.ttf" size="12" locale="kok_in" usage="screen" />
+	<font file="gargi.ttf" size="12" locale="kok_in" usage="print" />
+	<font file="lohit_bn_uid.ttf" size="17" locale="mni_in" style="condensed" usage="screen"/>
+	<font file="lohit_bn_uid.ttf" size="17" locale="mni_in" style="condensed" usage="print"/>
+	<font file="suruma-UID.ttf" size="12" locale="ml_in" style="semi-condensed |	semi-bold | ligature" usage="screen"/>
+	<font file="suruma2.ttf" size="12" locale="ml_in" style="semi-condensed |	semi-bold| ligature" usage="print"/>
+	<font file="gargi.ttf" size="12" locale="mr_in" usage="screen" />
+	<font file="gargi.ttf" size="12" locale="mr_in" usage="print" />
+	<font file="gargi.ttf" size="12" locale="ne_in" usage="screen" />
+	<font file="gargi.ttf" size="12" locale="ne_in" usage="print" />
+	<font file="Samyak-Oriya-UID.ttf" size="12" locale="or_in" usage="screen"/>
+	<font file="Samyak-Oriya-UID.ttf" size="12" locale="or_in" usage="print"/>
+	<font file="lohit_pa_uid.ttf" size="12" locale="pa_in" usage="screen"/>
+	<font file="lohit_pa_uid.ttf" size="12" locale="pa_in" usage="print"/>
+	<font file="lohit_ta_uid.ttf" size="11" locale="ta_in" style="condensed|semi-bold" usage="screen"/>
+	<font file="TSCu_Paranar.ttf" size="11" locale="ta_in" style="condensed|semi-bold" usage="print"/>
+	<font locale="te_in" file="lohit_te_uid.ttf" size="12" style="semi-bold" usage="screen"/>
+	<font locale="te_in" file="Pothana2000.ttf"	size="12" usage="print"/>
+	<font locale="ur_in" usage="screen" file="NafeesWebUID.ttf" size="14" />
+	<font locale="ur_in" usage="print" file="JNNastaleeq_uid.ttf" size="12" />
+	<font file="free39x.ttf" size="12" usage="print"/>
+</font-list>

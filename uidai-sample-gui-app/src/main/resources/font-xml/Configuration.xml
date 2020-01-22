@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<fop version="1.0">
+ <!-- Base URL for resolving relative URLs -->
+ <base>.</base>
+ <strict-validation>false</strict-validation>
+ <!-- Information for specific renderers -->
+
+ <!-- Uses renderer mime type for renderers -->
+ <renderers>
+
+  <renderer mime="application/pdf">
+   <fonts>
+    <!-- To  make binary each and every font element should have 'embed-url' and 'metrics-url' attributes in the following manner...
+		   <font embed-url="font/gargi.ttf" kerning="yes" metrics-url="font-xml/gargi.xml">
+			<font-triplet weight="normal" style="normal" name="gargi" />
+		   </font>
+		BUT     
+		To  work in eclipse each and every font element should have 'embed-url' and 'metrics-url' attributes in the following manner...
+		<font embed-url="src/main/resources/src/main/resources/font/gargi.ttf" kerning="yes" metrics-url="src/main/resources/font-xml/gargi.xml">
+		 <font-triplet weight="normal" style="normal" name="gargi" />
+		</font>
+	-->     
+	<!-- <directory>E:\HCL\UIDAI\KYCDemoClient\uidai-sample-gui-app\src\main\resources\font</directory> -->   
+    <font embed-url="src/main/resources/font/gargi.ttf" kerning="yes" metrics-url="src/main/resources/font-xml/gargi.xml">
+     <font-triplet weight="normal" style="normal" name="gargi" />
+    </font>
+    <font embed-url="src/main/resources/font/lohit_ass_uid.ttf" kerning="yes" metrics-url="src/main/resources/font-xml/lohit_ass_uid.xml">
+     <font-triplet weight="normal" style="normal" name="Lohit Bengali UID" />
+    </font>
+     <font embed-url="src/main/resources/font/lohit_bn_uid.ttf" kerning="yes" metrics-url="src/main/resources/font-xml/lohit_bn_uid.xml">
+     <font-triplet weight="normal" style="normal" name="Lohit Bengali UID" />
+    </font>
+    <font embed-url="src/main/resources/font/lohit_gu_uid.ttf" kerning="yes" metrics-url="src/main/resources/font-xml/lohit_gu_uid.xml">
+     <font-triplet weight="normal" style="normal" name="Lohit Gujarati UID" />
+    </font>
+       <font embed-url="src/main/resources/font/KedageNormal_UID.ttf" kerning="yes" metrics-url="src/main/resources/font-xml/KedageNormal_UID.xml">
+     <font-triplet weight="normal" style="normal" name="Kedage Normal UID" />
+    </font>
+     <font embed-url="src/main/resources/font/suruma-UID.ttf" kerning="yes" metrics-url="src/main/resources/font-xml/suruma-UID.xml">
+     <font-triplet weight="normal" style="normal" name="suruma-UID" />
+    </font>
+     <font embed-url="src/main/resources/font/Samyak-Oriya-UID.ttf" kerning="yes" metrics-url="src/main/resources/font-xml/Samyak-Oriya-UID.xml">
+     <font-triplet weight="normal" style="normal" name="Samyak Oriya-UID" />
+    </font>
+    <font embed-url="src/main/resources/font/lohit_pa_uid.ttf" kerning="yes" metrics-url="src/main/resources/font-xml/lohit_pa_uid.xml">
+     <font-triplet weight="normal" style="normal" name="Lohit Punjabi UID" />
+    </font>
+     <font embed-url="src/main/resources/font/lohit_ta_uid.ttf" kerning="yes" metrics-url="src/main/resources/font-xml/lohit_ta_uid.xml">
+     <font-triplet weight="normal" style="normal" name="Lohit Tamil UID" />
+    </font>
+     <font embed-url="src/main/resources/font/lohit_te_uid.ttf" kerning="yes" metrics-url="src/main/resources/font-xml/lohit_te_uid.xml">
+     <font-triplet weight="normal" style="normal" name="Lohit Telugu UID" />
+    </font>
+    <font embed-url="src/main/resources/font/NafeesWebUID.ttf" kerning="yes" metrics-url="src/main/resources/font-xml/NafeesWebUID.xml">
+     <font-triplet weight="normal" style="normal" name="NafeesWebUID" />
+    </font>
+    <font embed-url="src/main/resources/font/arial.ttf" kerning="yes" metrics-url="src/main/resources/font-xml/arial.xml">
+     <font-triplet weight="normal" style="normal" name="Arial" />
+    </font>
+   </fonts>
+   </renderer>
+   <renderer mime="image/png">
+    <fonts>
+   	<!-- <directory>E:\HCL\UIDAI\KYCDemoClient\uidai-sample-gui-app\src\main\resources\font</directory> -->
+    <font embed-url="src/main/resources/font/gargi.ttf" kerning="yes" metrics-url="src/main/resources/font-xml/gargi.xml">
+     <font-triplet weight="normal" style="normal" name="gargi" />
+    </font>
+    <font embed-url="src/main/resources/font/lohit_ass_uid.ttf" kerning="yes" metrics-url="src/main/resources/font-xml/lohit_ass_uid.xml">
+     <font-triplet weight="normal" style="normal" name="Lohit Bengali UID" />
+    </font>
+     <font embed-url="src/main/resources/font/lohit_bn_uid.ttf" kerning="yes" metrics-url="src/main/resources/font-xml/lohit_bn_uid.xml">
+     <font-triplet weight="normal" style="normal" name="Lohit Bengali UID" />
+    </font>
+    <font embed-url="src/main/resources/font/lohit_gu_uid.ttf" kerning="yes" metrics-url="src/main/resources/font-xml/lohit_gu_uid.xml">
+     <font-triplet weight="normal" style="normal" name="Lohit Gujarati UID" />
+    </font>
+       <font embed-url="src/main/resources/font/KedageNormal_UID.ttf" kerning="yes" metrics-url="src/main/resources/font-xml/KedageNormal_UID.xml">
+     <font-triplet weight="normal" style="normal" name="Kedage Normal UID" />
+    </font>
+     <font embed-url="src/main/resources/font/suruma-UID.ttf" kerning="yes" metrics-url="src/main/resources/font-xml/suruma-UID.xml">
+     <font-triplet weight="normal" style="normal" name="suruma-UID" />
+    </font>
+     <font embed-url="src/main/resources/font/Samyak-Oriya-UID.ttf" kerning="yes" metrics-url="src/main/resources/font-xml/Samyak-Oriya-UID.xml">
+     <font-triplet weight="normal" style="normal" name="Samyak Oriya-UID" />
+    </font>
+    <font embed-url="src/main/resources/font/lohit_pa_uid.ttf" kerning="yes" metrics-url="src/main/resources/font-xml/lohit_pa_uid.xml">
+     <font-triplet weight="normal" style="normal" name="Lohit Punjabi UID" />
+    </font>
+     <font embed-url="src/main/resources/font/lohit_ta_uid.ttf" kerning="yes" metrics-url="src/main/resources/font-xml/lohit_ta_uid.xml">
+     <font-triplet weight="normal" style="normal" name="Lohit Tamil UID" />
+    </font>
+     <font embed-url="src/main/resources/font/lohit_te_uid.ttf" kerning="yes" metrics-url="src/main/resources/font-xml/lohit_te_uid.xml">
+     <font-triplet weight="normal" style="normal" name="Lohit Telugu UID" />
+    </font>
+    <font embed-url="src/main/resources/font/NafeesWebUID.ttf" kerning="yes" metrics-url="src/main/resources/font-xml/NafeesWebUID.xml">
+     <font-triplet weight="normal" style="normal" name="NafeesWebUID" />
+    </font>
+    <font embed-url="src/main/resources/font/arial.ttf" kerning="yes" metrics-url="src/main/resources/font-xml/arial.xml">
+     <font-triplet weight="normal" style="normal" name="Arial" />
+    </font>
+   </fonts>
+   </renderer>
+</renderers>
+</fop>

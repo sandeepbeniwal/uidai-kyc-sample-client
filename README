@@ -1,0 +1,43 @@
+
+==========================================================
+*** UID Authentication Client Reference Implementation Updated ***
+==========================================================
+
+
+BUILD INSTRUCTIONS:
+------------------
+
+PRE-REQUISITES:
+
+1. JDK 11 or Higher
+2. Maven 3 or Higher
+3. Protoc compiler for converting protobuf message templates into java source code.
+
+PROJECT DESCRIPTIONS:
+====================
+- uidai-auth-proto-model: This project contains Protobuf Message format and builds Java objects by using protoc compiler
+- uidai-auth-xsd-model: This project contains auth XSDs and builds JAXB objects by using xjc compiler
+- uidai-auth-client: This project code encryption related code, and code to submit requests to auth server.
+- uidai-sample-gui-app: This project contains a sample GUI application.
+
+
+BUILDING FROM SOURCE:
+=====================
+  	 
+1. Run "mvn clean package -DskipTests"
+
+2. Select the "SampleClientMainFrame.java" file from "uidai-sample-gui-app" project
+    After launching the application, Use menu "Edit->Preferences" and modify values as needed.
+
+
+UIDAI SOURCE:
+=============
+1. https://www.uidai.gov.in/914-developer-section.html
+2. Go to sample application
+
+
+TODO:
+=====
+1. Clean up all Biometric integration code and provide only OTP KYC flow.
+2. Complete the OTP KYC flow, currently only OTP request is implemented.
+2. Integrate some UI L&F like Flatlaf, radiance, etc.  

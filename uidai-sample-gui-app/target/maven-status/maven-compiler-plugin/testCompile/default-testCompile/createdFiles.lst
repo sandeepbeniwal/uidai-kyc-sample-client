@@ -1,0 +1,4 @@
+in/gov/uidai/auth/exp.class
+in/gov/uidai/auth/ImageTool.class
+in/gov/uidai/jasypt/encrypt/EncryptablePropertiesTest.class
+in/gov/uidai/auth/KYCResponseWindowTest.class

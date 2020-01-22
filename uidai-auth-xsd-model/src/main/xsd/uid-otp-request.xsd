@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+  DISCLAIMER: The sample code or utility or tool described herein
+     is provided on an "as is" basis, without warranty of any kind.
+     UIDAI does not warrant or guarantee the individual success
+     developers may have in implementing the sample code on their
+     environment. 
+     
+     UIDAI does not warrant, guarantee or make any representations
+     of any kind with respect to the sample code and does not make
+     any representations or warranties regarding the use, results
+     of use, accuracy, timeliness or completeness of any data or
+     information relating to the sample code. UIDAI disclaims all
+     warranties, express or implied, and in particular, disclaims
+     all warranties of merchantability, fitness for a particular
+     purpose, and warranties related to the code, or any service
+     or software related thereto. 
+     
+     UIDAI is not responsible for and shall not be liable directly
+     or indirectly for any direct, indirect damages or costs of any
+     type arising out of use or any action taken by you or others
+     related to the sample code.
+     
+     THIS IS NOT A SUPPORTED SOFTWARE.
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.uidai.gov.in/authentication/otp/2.5"
+           xmlns:tns="http://www.uidai.gov.in/authentication/otp/2.5"
+           elementFormDefault="qualified"
+           xmlns:common="http://www.uidai.gov.in/authentication/common/types/2.5">
+
+    <xs:import namespace="http://www.uidai.gov.in/authentication/common/types/2.5"
+                   schemaLocation="common-types.xsd" />
+
+    <xs:complexType name="Otp">
+        <xs:sequence>
+            <xs:element name="Opts" type="tns:Opts" minOccurs="0" maxOccurs="1"/>			
+        </xs:sequence>
+        <xs:attribute name="uid" type="common:uid" use="required" />
+        <xs:attribute name="ac" type="common:AuaCode" use="required" />
+        <xs:attribute name="sa" type="common:AuaCode" use="required" />
+        <xs:attribute name="ver" type="common:Ver" use="required" />
+        <xs:attribute name="txn" type="common:Txn" use="required" />
+        <xs:attribute name="ts" type="xs:string" use="required" />
+        <xs:attribute name="lk" type="common:LicenseKey" use="required" />
+        <xs:attribute name="type" type="xs:string" use="optional" default="A"/>
+<!--        <xs:attribute name="tid" type="xs:string" use="required"/>-->
+    </xs:complexType>
+	
+    <xs:complexType name="Opts">
+        <xs:attribute name="ch" type="tns:Channel">
+        </xs:attribute>
+    </xs:complexType>
+	
+    <xs:simpleType name="Channel">
+        <xs:restriction base="xs:string"> 
+            <xs:enumeration value="00"/>
+            <xs:enumeration value="01"/>
+            <xs:enumeration value="02"/>
+        </xs:restriction>
+    </xs:simpleType>
+	
+    <xs:element name="Otp" type="tns:Otp"></xs:element>
+</xs:schema>
